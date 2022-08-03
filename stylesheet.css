@@ -19,7 +19,9 @@ body
   font-family: cursive;
   font-size: 2em;
 }
+.general-photo {
 
+}
 .general-photo {
   width: 40%;
   height: 40%;
@@ -61,7 +63,7 @@ body
   background: #95E1D3;
   text-align: left;
   margin-left: 7%;
-  width: 32%;
+  width: 40%;
 }
 
 .information li {
@@ -73,7 +75,6 @@ body
 }
 
 .description {
-  font-family: cursive;
   border-radius: 15px;
   padding: 20px;
   margin-left: 7%;
@@ -83,12 +84,11 @@ body
 
 .number { 
   font-weight: bold;
-  font-family: cursive;
   padding: 10px;
   border-radius: 10px;
   background: #95E1D3;
   text-align: right;
-  margin-left: 68%;
+  margin-left: 67%;
   margin-right: 7%;
 }
 
