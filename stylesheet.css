@@ -20,21 +20,19 @@ body
   font-size: 2em;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 700px) {
 
   .general-photo {
-    width: 370px;
-    height: 240px;
+    width: 48%;
+    height: 48%;
     margin-top: 12px;
     margin-left: 20px;
-    border: 6px solid #FCE38A;
-    border-radius: 10px;
     float: left;
 }
 
 }
 
-@media (max-width: 550px) {
+@media (max-width: 700px) {
 
   .general-photo-leveler {
     text-align: center;
@@ -56,6 +54,12 @@ body
     border-radius: 10px;
 }
 
+.ingridient-list {
+  display: inline-block;
+  float: right;
+  margin-right: 5%;
+}
+
 .ingridient-list h2 {
   text-align: center;
 }
@@ -65,32 +69,32 @@ body
   border-radius: 10px ;
   padding: 20px;
   background: #EAFFD0;
-  float: left;
-  margin-left: 10%;
   margin-top: -12px;
 }
 
 .ingridient-list ol li {
-  text-align: left;
   list-style: disc;
 }
 
-.information-title {
+.information {
+  display: table;
+}
+
+.information h2 {
   text-align: left;
   margin-left: 10%;
 }
 
-.information {
+.information ol {
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 10px;
   background: #95E1D3;
-  text-align: left;
   margin-left: 7%;
-  width: 40%;
+  margin-top: 5%;
 }
 
-.information li {
+.information ol li {
   list-style: disc;
 }
 
@@ -146,4 +150,3 @@ body
   padding: 10px;
   background: #95E1D3;
 }
-
