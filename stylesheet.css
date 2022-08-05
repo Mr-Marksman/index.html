@@ -20,44 +20,15 @@ body
   font-size: 2em;
 }
 
-@media (min-width: 700px) {
-
-  .general-photo {
-    width: 48%;
-    height: 48%;
-    margin-top: 12px;
-    margin-left: 20px;
-    float: left;
-}
-
-}
-
-@media (max-width: 700px) {
-
-  .general-photo-leveler {
-    text-align: center;
-  }
-
-  .general-photo {
-    width: 95%;
-    height: 95%;
-  }
-
-  .wrapper {
-    display: inline-grid;
-  }
-
-}
-
 .general-photo {
     border: 6px solid #FCE38A;
     border-radius: 10px;
 }
 
 .ingridient-list {
+  margin-right: 5%;
   display: inline-block;
   float: right;
-  margin-right: 5%;
 }
 
 .ingridient-list h2 {
@@ -150,3 +121,77 @@ body
   padding: 10px;
   background: #95E1D3;
 }
+
+@media (min-width: 700px) {
+  .general-photo {
+    width: 48%;
+    height: 48%;
+    margin-top: 12px;
+    margin-left: 20px;
+    float: left;
+  }
+
+}
+
+@media (max-width: 700px) {
+  .wrapper {
+    display: inline-grid;
+  }
+
+  .general-photo-leveler {
+    text-align: center;
+  }
+
+  .general-photo {
+    width: 95%;
+    height: 95%;
+  }
+
+  .ingridient-list {
+    margin-left: 5%;
+  }
+
+  .ingridient-list ol {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .information ol {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .information h2 { margin: unset;
+    text-align: center;
+  }
+
+  .description-title {
+    margin: unset;
+    text-align: center;
+  }
+
+  .cooking-title {
+    margin: unset;
+    text-align: center;
+  }
+  .cooking {
+    margin: unset;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .cooking img {
+    width: 80%;
+    height: 80%;
+    margin: 10% 10% 10% 10%;
+  }
+
+  .cooking p {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+}
+
